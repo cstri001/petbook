@@ -1,0 +1,20 @@
+{
+  "name": "petbook",
+  "version": "1.0.0",
+  "description": "Petbook - the small and crap Facebook for pets",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx watch index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "prisma": "^6.1.0",
+    "typescript": "^5.7.2"
+  }
+}
